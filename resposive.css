@@ -1,0 +1,581 @@
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .vertical-menu {
+        width: 150px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 180px;
+    }
+
+    .foot {
+        margin-left: 180px;
+    }
+}
+
+@media (max-width: 992px) {
+    .vertical-menu {
+        width: 120px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 140px;
+    }
+
+    .foot {
+        margin-left: 140px;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-grid #men {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .vertical-menu {
+        width: 100px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 120px;
+    }
+
+    .foot {
+        margin-left: 120px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-grid #men {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .vertical-menu {
+        width: 80px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 100px;
+    }
+
+    .foot {
+        margin-left: 100px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-grid #men {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 425px) {
+    .vertical-menu {
+        width: 70px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 90px;
+        padding: 10px;
+    }
+
+    .foot {
+        margin-left: 90px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-grid #men {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-card img,
+    .gallery img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .product-card h3,
+    .team-card h3 {
+        font-size: 1.3em;
+    }
+
+    .product-card p,
+    .team-card p {
+        font-size: 1em;
+    }
+
+    .product-card button {
+        padding: 6px 12px;
+        font-size: 1em;
+    }
+
+    .nombre {
+        font-size: 2.5em;
+    }
+
+    .contact p,
+    .values li {
+        font-size: 1em;
+    }
+
+    .contact .social-media a {
+        font-size: 0.9em;
+    }
+
+    footer .foot-bottom p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 400px) {
+    .vertical-menu {
+        width: 60px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 80px;
+    }
+
+    .foot {
+        margin-left: 80px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-grid #men {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 380px) {
+    .vertical-menu {
+        width: 50px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 60px;
+        padding: 10px;
+    }
+
+    .foot {
+        margin-left: 60px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-grid #men {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-card img,
+    .gallery img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .product-card h3,
+    .team-card h3 {
+        font-size: 1.2em;
+    }
+
+    .product-card p,
+    .team-card p {
+        font-size: 0.9em;
+    }
+
+    .product-card button {
+        padding: 5px 10px;
+        font-size: 0.9em;
+    }
+
+    .nombre {
+        font-size: 2em;
+    }
+
+    .contact p,
+    .values li {
+        font-size: 0.9em;
+    }
+
+    .contact .social-media a {
+        font-size: 0.8em;
+    }
+
+    footer .foot-bottom p {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 1280px) {
+    .vertical-menu {
+        width: 160px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 200px;
+    }
+
+    .foot {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .vertical-menu {
+        width: 140px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 160px;
+    }
+
+    .foot {
+        margin-left: 160px;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-grid #men {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 912px) {
+    .vertical-menu {
+        width: 110px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 130px;
+    }
+
+    .foot {
+        margin-left: 130px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-grid #men {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 853px) {
+    .vertical-menu {
+        width: 100px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 120px;
+    }
+
+    .foot {
+        margin-left: 120px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-grid #men {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 820px) {
+    .vertical-menu {
+        width: 90px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 110px;
+    }
+
+    .foot {
+        margin-left: 110px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-grid #men {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 540px) {
+    .vertical-menu {
+        width: 70px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 90px;
+    }
+
+    .foot {
+        margin-left: 90px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-grid #men {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 430px) {
+    .vertical-menu {
+        width: 60px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 80px;
+    }
+
+    .foot {
+        margin-left: 80px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-grid #men {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 414px) {
+    .vertical-menu {
+        width: 55px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 75px;
+    }
+
+    .foot {
+        margin-left: 75px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-grid #men {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 390px) {
+    .vertical-menu {
+        width: 50px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 70px;
+    }
+
+    .foot {
+        margin-left: 70px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-grid #men {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 375px) {
+    .vertical-menu {
+        width: 45px;
+    }
+
+    .head,
+    .products,
+    .values,
+    .team,
+    .gallery,
+    .contact {
+        margin-left: 65px;
+    }
+
+    .foot {
+        margin-left: 65px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-grid #men {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
